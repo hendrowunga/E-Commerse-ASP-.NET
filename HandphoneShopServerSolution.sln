@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandphoneShopServer", "HandphoneShopServer\HandphoneShopServer.csproj", "{8AC6DC08-45A6-4112-8DB0-B4399E7A36EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandphoneShopClient", "HandphoneShopClient\HandphoneShopClient.csproj", "{291A6481-E494-4071-877F-B17A250C0FCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandphoneShopSharedLibrary", "HandphoneShopSharedLibrary\HandphoneShopSharedLibrary.csproj", "{FC46C6ED-FED2-483A-B1AC-3A0C773E0EB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AC6DC08-45A6-4112-8DB0-B4399E7A36EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC6DC08-45A6-4112-8DB0-B4399E7A36EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC6DC08-45A6-4112-8DB0-B4399E7A36EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC6DC08-45A6-4112-8DB0-B4399E7A36EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{291A6481-E494-4071-877F-B17A250C0FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{291A6481-E494-4071-877F-B17A250C0FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{291A6481-E494-4071-877F-B17A250C0FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{291A6481-E494-4071-877F-B17A250C0FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC46C6ED-FED2-483A-B1AC-3A0C773E0EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC46C6ED-FED2-483A-B1AC-3A0C773E0EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC46C6ED-FED2-483A-B1AC-3A0C773E0EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC46C6ED-FED2-483A-B1AC-3A0C773E0EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B001E75D-70FE-495D-A62F-016A10D6A52E}
+	EndGlobalSection
+EndGlobal

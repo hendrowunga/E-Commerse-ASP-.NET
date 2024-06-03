@@ -70,6 +70,13 @@
             SetMessageDialog();
             return;
         }
+        var (flag, message) = await ProductServices.AddProduct(MyProduct);
+        if (flag)
+            messageDialog!.SetDialogValues("success", message);
+        else
+            messageDialog!.SetDialogValues("danger", message);
+        SetMessageDialog();
+        return;
     }
     async Task UploadImage(InputFileChangeEventArgs e)
     {

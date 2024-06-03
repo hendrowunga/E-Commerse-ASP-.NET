@@ -7,14 +7,9 @@ namespace HandphoneShopServer.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductController : ControllerBase
+    public class ProductController(IProduct productServices) : ControllerBase
     {
-        private readonly IProduct productServices;
 
-        public ProductController(IProduct productServices)
-        {
-            this.productServices = productServices;
-        }
         [HttpGet]
         public async Task<ActionResult<List<Product>>> GetAllProducts(bool featured)
         {
